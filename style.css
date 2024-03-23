@@ -1,0 +1,84 @@
+body{
+
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+header h1 {
+    font-size: 24px ;
+    color: #F9FAF8;
+}
+
+.hero-text h1 {
+    font-size: 48px  ;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.hero-text p, .header-links li {
+    font-size: 18px ;
+    color:#E5E7EB;
+}
+
+header {
+    background-color: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-links{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    padding: 0;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:80px;
+}
+
+.hero {
+    display: flex;
+}
+
+.random-section {
+    display: flex;
+    flex-direction:column ;
+
+}
+
+.random-section div {
+    display: flex;
+    flex-direction:space-between;
+
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 50px 400px;
+    text-align: center;
+}
+
+.quote-text{
+    font-size:36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-author{
+    font-weight: bold;
+}
+
+.action-section, button {
+    background-color: #3882F6;
+}
